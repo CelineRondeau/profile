@@ -1,0 +1,88 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body{
+  background-color: #E0E0E0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #1EA896;
+}
+
+h2,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: #1EA896;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #1F7A8C;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.btn-seaweed{
+  background-color: #1F7A8C;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 8px;
+  display: inline-block;
+  transition: 0.2s
+}
+
+.container{
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card{
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+display: inline;
+  margin: 0 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
